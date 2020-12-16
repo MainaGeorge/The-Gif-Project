@@ -1,0 +1,8 @@
+<div>
+<p class="questDetails text-primary"> {{ question.description}}</p>
+
+<div class="form-group" *ngFor="let answer of ansArr">
+  <button (click)="onSubmit(answer)"
+          class="btn increaseText btn-{{ color }} form-control" style="max-width: 80%">{{ answer }}</button>
+</div>
+</div>

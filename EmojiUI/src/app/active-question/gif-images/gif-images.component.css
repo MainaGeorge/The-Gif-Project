@@ -1,0 +1,11 @@
+img {
+  width: 400px;
+  height: 400px;
+  border: 8px solid gold;
+  border-right-color: red;
+  border-bottom-color: green;
+  border-left-color: mediumslateblue;
+
+}
+
+

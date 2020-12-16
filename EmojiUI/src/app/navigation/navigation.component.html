@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active" [routerLink]="['/home']" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link bold">Home</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active" [queryParams]="{subject: 'general'}"
+          [routerLink]="['/questions']" *ngIf="isLoggedIn">
+        <a class="nav-link bold">General</a>
+      </li>
+      <li class="nav-item" routerLink="/questions" routerLinkActive="active" [queryParams]="{subject: 'english'}"
+          *ngIf="isLoggedIn">
+        <a class="nav-link bold">English</a>
+      </li>
+      <li class="nav-item" routerLink="/add-question" routerLinkActive="active"
+          *ngIf="isLoggedIn">
+        <a class="nav-link bold">Add Question</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" routerLink="/register" *ngIf="!isLoggedIn">
+        <a class="nav-link"  routerLinkActive="active">Register</a>
+      </li>
+      <li class="nav-item" routerLink="/login" routerLinkActive="active" *ngIf="!isLoggedIn">
+        <a class="nav-link" >Login</a>
+      </li>
+      <li class="nav-item" routerLink="/login" routerLinkActive="active" *ngIf="isLoggedIn">
+        <a class="nav-link">High Score: <strong class="text-success"> 100 </strong> </a>
+      </li>
+      <li class="nav-item" *ngIf="isLoggedIn">
+        <a class="nav-link" (click)="onLogout()">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>

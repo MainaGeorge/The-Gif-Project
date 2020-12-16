@@ -1,0 +1,19 @@
+.bold {
+  color: black;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.nav{
+  margin-bottom: 40px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+li {
+  margin-right: 10px;
+}

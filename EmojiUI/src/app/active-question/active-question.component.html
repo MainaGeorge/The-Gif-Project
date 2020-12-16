@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="d-flex justify-content-center align-content-center" *ngIf="!showQuestion">
+    <div class="col-2 text-center">
+      <app-timer [correctAnswer]="currentQuestion.answer.correctAnswer"></app-timer>
+    </div>
+    <div class="col-8 text-center">
+      <app-question [question]="currentQuestion"></app-question>
+    </div>
+    <div class="col-2 text-center">
+      <app-score [score]="score"></app-score>
+    </div>
+  </div>
+  <app-gif-images [imagePath]="imagePath" *ngIf="showQuestion"></app-gif-images>
+  <div *ngIf="showCorrectAnswer && show" class="text-center">
+    <p class="questDetails text-primary"> The correct answer is  <strong class="text-danger">{{ correctAnswer | uppercase }}</strong></p>
+  </div>
+
+  <div *ngIf="currentQuestionIndex >= questions.length">
+    <p class="text-center text-success" style="font-size: 1000%"> Your score is <span class="text-danger">{{ score }}</span></p>
+  </div>
+</div>

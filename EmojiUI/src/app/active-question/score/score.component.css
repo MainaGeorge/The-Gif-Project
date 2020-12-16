@@ -1,0 +1,9 @@
+.increaseFont {
+  font-size: 2000%;
+  vertical-align: center;
+  color: chartreuse;
+}
+.alterFont {
+  font-size: 800%;
+  color: blueviolet;
+}

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be11c38a-fd28-4300-90a9-997f3b31b2d4" name="Default Changelist" comment="Adding home component and home page">
+      <change beforePath="$PROJECT_DIR$/src/app/navigation/navigation.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navigation/navigation.component.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eZtELc6OQSFqCZnfMKNMl4M2IK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/gifs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="ts.external.directory.path" value="D:\CURRENT PROJECTS\GifProject\emojiprojectUI\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CURRENT PROJECTS\GifProject\emojiprojectUI\src\assets\gifs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CURRENT PROJECTS\GifProject\emojiprojectUI\src\assets" />
+      <recent name="C:\Users\genag\OneDrive\Desktop\current projects\GifProject\emojiprojectUI\src\app\active-question" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (emojiproject)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (emojiproject)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be11c38a-fd28-4300-90a9-997f3b31b2d4" name="Default Changelist" comment="" />
+      <created>1594540829260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594540829260</updated>
+      <workItem from="1594540833235" duration="5090000" />
+      <workItem from="1594642618600" duration="5418000" />
+      <workItem from="1594707441005" duration="15196000" />
+      <workItem from="1594798070428" duration="7445000" />
+      <workItem from="1594873385262" duration="4081000" />
+      <workItem from="1594899735678" duration="9267000" />
+      <workItem from="1594925507619" duration="1197000" />
+      <workItem from="1594965512345" duration="2145000" />
+      <workItem from="1594987734034" duration="41000" />
+      <workItem from="1595080208784" duration="599000" />
+      <workItem from="1595327360962" duration="37000" />
+      <workItem from="1595425940100" duration="10000" />
+      <workItem from="1607669232507" duration="5706000" />
+      <workItem from="1607696100788" duration="416000" />
+      <workItem from="1607757387704" duration="106000" />
+      <workItem from="1607766244085" duration="1293000" />
+      <workItem from="1607928525200" duration="6695000" />
+      <workItem from="1607937693522" duration="11377000" />
+      <workItem from="1608027098249" duration="7883000" />
+      <workItem from="1608038810487" duration="807000" />
+      <workItem from="1608046905507" duration="2054000" />
+      <workItem from="1608102713762" duration="14828000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding home component and home page">
+      <created>1608038136341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608038136341</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding home component and home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding home component and home page" />
+  </component>
+</project>

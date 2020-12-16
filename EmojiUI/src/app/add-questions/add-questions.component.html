@@ -1,0 +1,37 @@
+
+<div class="container">
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <div class="form-group">
+      <label for="description">Question Description</label>
+      <textarea id="description" name="description" class="form-control" ngModel required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <select name="subject" id="subject" class="form-control" ngModel required>
+        <option  value="{{ sub }}" *ngFor="let sub of topics">{{ sub }}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="correctAnswer">Correct Answer</label>
+      <input id="correctAnswer" name="correctAnswer" type="text" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="firstAlternative">First Alternative</label>
+      <input name="firstAlternative" id="firstAlternative" type="text" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="secondAlternative">Second Alternative</label>
+      <input id="secondAlternative" name="secondAlternative" type="text" class="form-control"
+             [value]="defaultNone" (input)="defaultNone = $event.target.value" required>
+    </div>
+    <div class="form-group">
+      <label for="thirdAlternative">Third Alternative</label>
+      <input name="thirdAlternative" id="thirdAlternative"
+             type="text" class="form-control" [value]="defaultAll"
+             (input)="defaultAll = $event.target.value" required>
+    </div>
+    <div class="form-group">
+      <input type="submit" class="btn btn-info btn-lg form-control" [disabled]="!form.valid" value="Add">
+    </div>
+  </form>
+</div>
