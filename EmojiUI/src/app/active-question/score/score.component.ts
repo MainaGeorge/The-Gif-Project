@@ -8,7 +8,6 @@ import {GifService} from '../../services/gif-service';
 })
 export class ScoreComponent implements OnInit {
   @Input() score: number;
-  notShowScore = false;
   constructor(private gifService: GifService) { }
 
   ngOnInit(): void {

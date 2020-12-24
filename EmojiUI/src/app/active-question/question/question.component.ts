@@ -12,6 +12,7 @@ import {shuffleArray} from '../../shared/methods';
 export class QuestionComponent implements OnInit {
 
   @Input() question: Question;
+  @Input() score: number;
   answer: Answer;
   ansArr: string[] = [];
   colours = ['primary', 'danger', 'success', 'warning', 'secondary'];

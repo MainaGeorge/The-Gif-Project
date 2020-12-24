@@ -142,3 +142,147 @@ D:\CURRENT PROJECTS\GifProject\emojiProjectAPI\GifApi\obj\Debug\netcoreapp3.1\Gi
 D:\CURRENT PROJECTS\GifProject\emojiProjectAPI\GifApi\obj\Debug\netcoreapp3.1\GifApi.genruntimeconfig.cache
 D:\CURRENT PROJECTS\GifProject\emojiProjectAPI\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\CURRENT PROJECTS\GifProject\emojiProjectAPI\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.exe
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.deps.json
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.runtimeconfig.json
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.runtimeconfig.dev.json
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.pdb
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csprojAssemblyReference.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.AssemblyInfoInputs.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.AssemblyInfo.cs
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csproj.CoreCompileInputs.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\staticwebassets\GifApi.StaticWebAssets.Manifest.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\staticwebassets\GifApi.StaticWebAssets.xml
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\GifApi.styles.css
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.RazorTargetAssemblyInfo.cache
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csproj.CopyComplete
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.dll
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.pdb
+C:\Users\genag\OneDrive\Desktop\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.genruntimeconfig.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.exe
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.deps.json
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.runtimeconfig.json
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.runtimeconfig.dev.json
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\GifApi.pdb
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csprojAssemblyReference.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.AssemblyInfoInputs.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.AssemblyInfo.cs
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csproj.CoreCompileInputs.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.MvcApplicationPartsAssemblyInfo.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\staticwebassets\GifApi.StaticWebAssets.Manifest.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\staticwebassets\GifApi.StaticWebAssets.xml
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\GifApi.styles.css
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.RazorTargetAssemblyInfo.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csproj.CopyComplete
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.pdb
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.genruntimeconfig.cache

@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import {HttpClient, HttpParams} from '@angular/common/http';
-import {Answer, Question, User} from '../shared/models';
+import {HttpClient} from '@angular/common/http';
+import {Question, User} from '../shared/models';
 import {Observable, Subject} from 'rxjs';
 
 
@@ -33,6 +33,8 @@ export class QuestionsService {
 
   logout(){
     localStorage.removeItem('token');
+    localStorage.removeItem('score');
+    localStorage.removeItem('email');
     this.hasLoggedIn.next(false);
     return this.http.post(this.logoutUrl, {});
   }

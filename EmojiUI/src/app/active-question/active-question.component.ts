@@ -20,6 +20,7 @@ export class ActiveQuestionComponent implements OnInit, OnDestroy {
   imagePath : string;
   showCorrectAnswer = false;
   showQuestion = false;
+  increaseScoreSubscription: Subscription;
   showQuestionSubscription: Subscription;
   imagePathSubscription: Subscription;
   showCorrectAnswerSubscription: Subscription;
@@ -28,6 +29,7 @@ export class ActiveQuestionComponent implements OnInit, OnDestroy {
   show=false;
   score: number = 0;
   showScore = false;
+
   constructor(private gifService: GifService, private questionsService: QuestionsService,
               private activatedRoute:ActivatedRoute, private router: Router) {
     this.router.routeReuseStrategy.shouldReuseRoute = function () {
@@ -55,10 +57,11 @@ export class ActiveQuestionComponent implements OnInit, OnDestroy {
         } else {
           this.gifService.count.next(true);
         }
-      },
-        err => console.log(err));
+      }, err => console.log(err));
+
     this.imagePathSubscription = this.gifService.imagePath
       .subscribe( data => this.imagePath = data, err => console.log(err));
+
     this.showCorrectAnswerSubscription = this.gifService.showCorrectAnswer.subscribe(
       data => {
         this.show = true;
@@ -71,7 +74,11 @@ export class ActiveQuestionComponent implements OnInit, OnDestroy {
     this.questions = this.activatedRoute.snapshot.data['questions'];
     this.currentQuestion = this.questions[this.currentQuestionIndex];
 
-    this.gifService.increaseScore.subscribe(score => this.score = this.score + score, err => console.log(err));
+    this.increaseScoreSubscription = this.gifService.increaseScore.subscribe(score =>
+      {
+        this.score = this.score + score;
+        this.gifService.setScore(this.score)
+      }, err => console.log(err));
     this.loadNextQuestion = this.gifService.loadNextQuestion.subscribe(() => this.showQuestion = false, err => console.log(err));
   }
 
@@ -80,6 +87,7 @@ export class ActiveQuestionComponent implements OnInit, OnDestroy {
     this.imagePathSubscription.unsubscribe();
     this.showCorrectAnswerSubscription.unsubscribe();
     this.correctAnswerSubscription.unsubscribe();
+    this.increaseScoreSubscription.unsubscribe();
     if (this.mySubscription) {
       this.mySubscription.unsubscribe();
     }

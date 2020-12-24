@@ -75,7 +75,9 @@ namespace GifApi.Controllers
 
             var token = GenerateToken(user);
 
-            return Ok(new { token });
+            var userToReturn = _mapper.Map<UserDto>(user);
+
+            return Ok(new { token, userToReturn.Email, userToReturn.Score });
 
         }
 

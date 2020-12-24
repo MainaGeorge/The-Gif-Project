@@ -25,6 +25,8 @@ export class LoginComponent implements OnInit {
     const user = loginForm.value;
     this.questionService.login(user).subscribe( data => {
       localStorage.setItem('token', data['token']);
+      localStorage.setItem('score', data['score']);
+      localStorage.setItem('email', data['email']);
       this.questionService.hasLoggedIn.next(true);
       this.router.navigate(['/questions']).then()
     }, err => console.log(err))

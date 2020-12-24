@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBV4SIwU2oWdaAEoLEm/LcC7W5TBGRhCMRS+2CcFqM9m204hMu266F5Vk5idO+P732NAnOcPwo7Oi/x2xYWXcA==",
+  "dgSpecHash": "dEYZKg8J5Fcf2zAmgxCDEfixiLwoM/jDMhMQMAh6NjPnKx4v94WzliWh7lzD9VRmaoU+WgGyj8pCnj6NIMTLyw==",
   "success": true,
-  "projectFilePath": "D:\\CURRENT PROJECTS\\GifProject\\emojiProjectAPI\\GifApi\\GifApi.csproj",
+  "projectFilePath": "D:\\CURRENT PROJECTS\\EmojiProject\\GifApi\\GifApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\genag\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\genag\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

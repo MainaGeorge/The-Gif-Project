@@ -1,5 +1,3 @@
-using System;
-using System.Text;
 using AutoMapper;
 using GifApi.Data;
 using GifApi.Mapping;
@@ -14,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
+using System;
+using System.Text;
 
 namespace GifApi
 {
@@ -29,7 +29,8 @@ namespace GifApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers().AddNewtonsoftJson(options =>
+            services.AddControllers()
+                .AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
@@ -46,6 +47,8 @@ namespace GifApi
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<GifContext>();
+
+
 
             services.Configure<IdentityOptions>(opt =>
             {

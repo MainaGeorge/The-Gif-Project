@@ -8,6 +8,8 @@
 	<ItemGroup>
 	  <Compile Remove="Migrations\20200713081914_CreatingTheDatabase.cs" />
 	  <Compile Remove="Migrations\20200713081914_CreatingTheDatabase.Designer.cs" />
+	  <Compile Remove="Migrations\20201224065957_AddingScore.cs" />
+	  <Compile Remove="Migrations\20201224065957_AddingScore.Designer.cs" />
 	</ItemGroup>
 
 	<ItemGroup>

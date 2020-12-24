@@ -13,7 +13,6 @@ export class QuestionsResolver implements Resolve<Question[]> {
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<Question[]> | Promise<Question[]> | Question[] {
     const subject = route.queryParams['subject'] ?? 'general';
-    console.log(subject);
     return this.questionsService.getQuestions(subject).pipe(catchError(err => throwError(err)));
   }
 

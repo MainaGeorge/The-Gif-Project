@@ -4,7 +4,7 @@
       <app-timer [correctAnswer]="currentQuestion.answer.correctAnswer"></app-timer>
     </div>
     <div class="col-8 text-center">
-      <app-question [question]="currentQuestion"></app-question>
+      <app-question [question]="currentQuestion" [score] = score></app-question>
     </div>
     <div class="col-2 text-center">
       <app-score [score]="score"></app-score>
@@ -17,5 +17,6 @@
 
   <div *ngIf="currentQuestionIndex >= questions.length">
     <p class="text-center text-success" style="font-size: 1000%"> Your score is <span class="text-danger">{{ score }}</span></p>
+
   </div>
 </div>

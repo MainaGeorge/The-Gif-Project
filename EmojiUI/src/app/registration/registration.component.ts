@@ -19,8 +19,7 @@ export class RegistrationComponent implements OnInit {
   onSubmit(form: NgForm) {
       let registrationData = form.value;
       this.questionService.register(registrationData).subscribe( data =>{
-        console.log(data);
-        this.router.navigate(['/login'])
+        this.router.navigate(['/login']).then();
       }, err => console.log(err));
   }
 }

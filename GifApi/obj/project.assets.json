@@ -5895,11 +5895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CURRENT PROJECTS\\GifProject\\emojiProjectAPI\\GifApi\\GifApi.csproj",
+      "projectUniqueName": "D:\\CURRENT PROJECTS\\EmojiProject\\GifApi\\GifApi.csproj",
       "projectName": "GifApi",
-      "projectPath": "D:\\CURRENT PROJECTS\\GifProject\\emojiProjectAPI\\GifApi\\GifApi.csproj",
+      "projectPath": "D:\\CURRENT PROJECTS\\EmojiProject\\GifApi\\GifApi.csproj",
       "packagesPath": "C:\\Users\\genag\\.nuget\\packages\\",
-      "outputPath": "D:\\CURRENT PROJECTS\\GifProject\\emojiProjectAPI\\GifApi\\obj\\",
+      "outputPath": "D:\\CURRENT PROJECTS\\EmojiProject\\GifApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\genag\\AppData\\Roaming\\NuGet\\NuGet.Config",

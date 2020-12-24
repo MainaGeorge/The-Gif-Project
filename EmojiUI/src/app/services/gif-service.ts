@@ -8,6 +8,7 @@ import {GifArrays} from '../shared/gifArrays';
 export class GifService {
   gifArray: GifArrays;
   count: Subject<boolean> = new Subject<boolean>();
+  refreshScore = new Subject<void> ();
   resetCounter = new Subject<void>();
   imagePath = new Subject<string>();
   loadNextQuestion = new Subject<void>();
@@ -73,7 +74,17 @@ export class GifService {
     this.count.next(true);
     setTimeout( ()=> {
       this.loadNextQuestion.next();
-    }, 4000)
+    }, 3300)
 
     }
+
+  setScore(currentScore: number){
+    const score = +localStorage.getItem('score');
+    if(score <= currentScore){
+      localStorage.setItem('score', currentScore.toString());
+      this.refreshScore.next();
+    }
+
+  }
+
 }

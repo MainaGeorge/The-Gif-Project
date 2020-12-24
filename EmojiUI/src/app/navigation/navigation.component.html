@@ -25,7 +25,7 @@
         <a class="nav-link" >Login</a>
       </li>
       <li class="nav-item" routerLink="/login" routerLinkActive="active" *ngIf="isLoggedIn">
-        <a class="nav-link">High Score: <strong class="text-success"> 100 </strong> </a>
+        <a class="nav-link">High Score: <strong class="text-success"> {{ score }} </strong> </a>
       </li>
       <li class="nav-item" *ngIf="isLoggedIn">
         <a class="nav-link" (click)="onLogout()">Logout</a>
