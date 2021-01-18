@@ -36,7 +36,7 @@ namespace GifApi
                 options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             });
 
-
+            services.AddSwaggerGen();
             services.AddCors();
             services.AddAutoMapper(typeof(Maps));
 
@@ -99,6 +99,14 @@ namespace GifApi
 
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Questions");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 

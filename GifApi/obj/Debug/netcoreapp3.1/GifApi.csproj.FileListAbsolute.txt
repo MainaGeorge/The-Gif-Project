@@ -286,3 +286,8 @@ D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.csproj.Co
 D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.dll
 D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.pdb
 D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.genruntimeconfig.cache
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CURRENT PROJECTS\EmojiProject\GifApi\obj\Debug\netcoreapp3.1\GifApi.MvcApplicationPartsAssemblyInfo.cs
