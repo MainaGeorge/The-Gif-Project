@@ -1,0 +1,31 @@
+<div class="container">
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input id="firstName" name="firstName" type="text" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input id="lastName" name="lastName" type="text" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="username">User Name</label>
+      <input id="username" name="username" type="text" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input name="email" id="email" type="email" class="form-control" ngModel required email>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password</label>
+      <input name="confirmPassword" id="confirmPassword" type="password" class="form-control" ngModel required>
+    </div>
+    <div class="form-group">
+      <input type="submit" class="btn btn-info btn-lg form-control" [disabled]="!form.valid" value="Register">
+    </div>
+  </form>
+</div>
