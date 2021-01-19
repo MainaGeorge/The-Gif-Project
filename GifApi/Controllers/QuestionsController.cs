@@ -1,4 +1,5 @@
-﻿using GifApi.Data;
+﻿using System;
+using GifApi.Data;
 using GifApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +25,7 @@ namespace GifApi.Controllers
         public async Task<IEnumerable<Question>> GetAll(string subject)
         {
             return await _context.Questions
-                .Where(q => q.Subject.Contains(subject))
+                .Where(q => string.Equals(q.Subject.ToLower(), subject.ToLower(), StringComparison.InvariantCulture))
                 .Include(p => p.Answer)
                 .Include(p => p.Photos)
                 .ToListAsync();

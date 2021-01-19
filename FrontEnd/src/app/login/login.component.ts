@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from '@angular/forms';
+import {AccountServiceService} from '../services/account-service.service';
+import {ToastrService} from 'ngx-toastr';
 
 @Component({
   selector: 'app-login',
@@ -8,12 +10,20 @@ import {NgForm} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private accountService: AccountServiceService,
+              private toastr: ToastrService) { }
 
   ngOnInit(): void {
   }
 
   onSubmit(loginForm: NgForm) {
+    const loginModel = loginForm.value;
 
+    console.log(loginModel);
+    this.accountService.login(loginModel).subscribe( (data) => {
+      this.toastr.success("welcome " + data.username);
+    }, (err) => {
+      console.log(err);
+    });
   }
 }

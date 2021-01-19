@@ -3,21 +3,15 @@ import {ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree} from 
 import {Observable} from 'rxjs';
 import {AppUser} from '../interfaces/models';
 import {Injectable} from '@angular/core';
+import {AccountServiceService} from '../services/account-service.service';
 
 @Injectable()
 export class AuthenticationGuard implements CanActivate{
 
-  constructor(private jwtService: JwtHelperService) {
+  constructor(private accountService: AccountServiceService) {
   }
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-    const user = localStorage.getItem('user');
-    if(!user){
-      return false;
-    }
-    const appUser: AppUser = JSON.parse(user);
-    const token = appUser.token;
-
-    return !this.jwtService.isTokenExpired(token);
+   return this.accountService.isLoggedIn();
   }
 }

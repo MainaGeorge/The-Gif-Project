@@ -68,16 +68,19 @@ namespace GifApi.Controllers
 
             var user = await _userManager.FindByEmailAsync(model.Email);
 
+            if (user == null) return Unauthorized("incorrect password and email combination");
+
             var signInResult =
                 await _signInManager.PasswordSignInAsync(user.UserName, model.Password, false, false);
 
-            if (!signInResult.Succeeded) return Unauthorized();
+            if (!signInResult.Succeeded) return Unauthorized("incorrect password and email combination");
 
             var token = GenerateToken(user);
 
             var userToReturn = _mapper.Map<UserDto>(user);
+            userToReturn.Token = token;
 
-            return Ok(new { token, userToReturn.Email, userToReturn.Score });
+            return Ok(userToReturn);
 
         }
 

@@ -25,5 +25,15 @@ export interface Photo {
 export interface AppUser {
   email: string,
   token: string,
-  score: number
+  score: number,
+  username: string
+}
+
+export interface RegistrationModel {
+  email: string,
+  password: string,
+  confirmPassword: string,
+  username: string,
+  firstName: string,
+  lastName:string
 }
