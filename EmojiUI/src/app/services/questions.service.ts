@@ -1,7 +1,9 @@
 import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 import {Question, User} from '../shared/models';
-import {Observable, Subject} from 'rxjs';
+import {Observable, of, Subject, throwError} from 'rxjs';
+import {ToastrService} from 'ngx-toastr';
+import {catchError, map} from 'rxjs/operators';
 
 
 @Injectable({providedIn : 'root'})
@@ -12,7 +14,7 @@ export class QuestionsService {
   loginUrl = 'https://localhost:44388/api/account/login';
   logoutUrl = 'https://localhost:44388/api/account/logout';
 
-  constructor( private http: HttpClient) {
+  constructor( private http: HttpClient, private toastr: ToastrService) {
   }
 
   getQuestions(subject: string): Observable<Question[]>{
@@ -41,5 +43,10 @@ export class QuestionsService {
 
   addQuestion(question){
     return this.http.post(this.baseQuestionsUrl, question);
+  }
+
+  handleError(responseError:HttpErrorResponse){
+    this.toastr.error("wrong");
+    return throwError(responseError);
   }
 }

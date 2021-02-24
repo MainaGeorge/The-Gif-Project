@@ -1,0 +1,13 @@
+.score {
+  flex-basis: 30%;
+}
+
+.question {
+  flex-basis: 40%;
+  margin-top: 7rem;
+}
+
+.timer {
+  flex-basis: 30%;
+}
+

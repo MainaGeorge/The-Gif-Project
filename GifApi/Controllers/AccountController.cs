@@ -52,7 +52,7 @@ namespace GifApi.Controllers
                     return Ok(_mapper.Map<UserDto>(user));
 
                 foreach (var error in createUser.Errors)
-                    ModelState.AddModelError("", error.Description);
+                    ModelState.AddModelError("modelErrors", error.Description);
 
                 return BadRequest(ModelState);
             }

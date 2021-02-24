@@ -1,0 +1,24 @@
+<div class="box d-flex align-content-center justify-content-center mt-4 mb-4">
+  <div class="form-check mr-4" *ngFor="let subject of subjects; let i = index;">
+    <input class="form-check-input" type="radio" name="exampleRadios"
+           id=" {{ i }}" value="option1" [checked]="subject === 'General Knowledge'" (click)="getQuestions(subject)">
+    <label class="form-check-label" for=" {{ i }}">
+      {{ subject }}
+    </label>
+  </div>
+</div>
+
+<ng-container *ngIf="showInterface">
+  <div class="d-flex align-content-center justify-content-center">
+    <div  class="text-center timer">
+      <app-timer></app-timer>
+    </div>
+    <div  class="text-center question">
+      <app-active-question [Questions]="questions"></app-active-question>
+    </div>
+    <div class="text-center score">
+      <app-score></app-score>
+    </div>
+  </div>
+</ng-container>
+

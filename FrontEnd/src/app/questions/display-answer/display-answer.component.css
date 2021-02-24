@@ -1,0 +1,11 @@
+
+.form-check :hover {
+  color: purple;
+  font-size: large;
+  font-weight: bold;
+}
+
+.form-check {
+  margin: 10px 10px;
+  cursor: pointer;
+}

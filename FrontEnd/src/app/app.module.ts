@@ -11,10 +11,15 @@ import { HomeComponent } from './home/home.component';
 import { RegistrationComponent } from './registration/registration.component';
 import {AuthorizationInterceptor} from './interceptors/authorization.service';
 import {AuthenticationGuard} from './Guards/authentication.guard';
-import {ToastrModule, ToastrService} from 'ngx-toastr';
+import {ToastrModule} from 'ngx-toastr';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {JwtHelperService, JwtModule} from '@auth0/angular-jwt';
+import {JwtModule} from '@auth0/angular-jwt';
 import {AppUser} from './interfaces/models';
+import { QuestionsComponent } from './questions/questions.component';
+import { ActiveQuestionComponent } from './questions/active-question/active-question.component';
+import { TimerComponent } from './questions/timer/timer.component';
+import { ScoreComponent } from './questions/score/score.component';
+import { DisplayAnswerComponent } from './questions/display-answer/display-answer.component';
 
 export function tokenGetter() {
   const user = localStorage.getItem('user');
@@ -28,7 +33,12 @@ export function tokenGetter() {
     NavigationComponent,
     LoginComponent,
     HomeComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    QuestionsComponent,
+    ActiveQuestionComponent,
+    TimerComponent,
+    ScoreComponent,
+    DisplayAnswerComponent
   ],
   imports: [
     BrowserModule,

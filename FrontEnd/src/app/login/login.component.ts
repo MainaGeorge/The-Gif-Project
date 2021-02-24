@@ -18,12 +18,12 @@ export class LoginComponent implements OnInit {
 
   onSubmit(loginForm: NgForm) {
     const loginModel = loginForm.value;
-
-    console.log(loginModel);
     this.accountService.login(loginModel).subscribe( (data) => {
+      localStorage.setItem('user', JSON.stringify(data));
+      this.accountService.hasLoggedIn.next(true);
       this.toastr.success("welcome " + data.username);
     }, (err) => {
-      console.log(err);
+      this.toastr.error(err.error);
     });
   }
 }

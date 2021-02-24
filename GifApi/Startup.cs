@@ -52,7 +52,7 @@ namespace GifApi
 
             services.Configure<IdentityOptions>(opt =>
             {
-                opt.Password.RequireDigit = false;
+                opt.Password.RequireDigit = true;
                 opt.Password.RequireNonAlphanumeric = false;
                 opt.Password.RequireUppercase = false;
                 opt.Password.RequiredLength = 6;

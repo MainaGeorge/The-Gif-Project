@@ -17,6 +17,9 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import {AddHeaderInterceptorProvider} from './services/request-modifying.service';
 import { AddQuestionsComponent } from './add-questions/add-questions.component';
+import {ToastrModule} from 'ngx-toastr';
+import {GlobalErrorInterceptor} from './services/errorInterceptor';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 const routes :Routes = [
@@ -44,12 +47,14 @@ const routes :Routes = [
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot(routes,{
       onSameUrlNavigation: 'reload'}),
+    ToastrModule.forRoot()
   ],
-  providers: [QuestionsResolver, AddHeaderInterceptorProvider],
+  providers: [QuestionsResolver, AddHeaderInterceptorProvider, GlobalErrorInterceptor],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

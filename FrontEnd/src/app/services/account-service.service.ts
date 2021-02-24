@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {JwtHelperService} from '@auth0/angular-jwt';
 import {AppUser, LoginModel, RegistrationModel} from '../interfaces/models';
-import {Observable} from 'rxjs';
+import {Observable, Subject} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,8 @@ export class AccountServiceService {
 
   loginUrl = 'https://localhost:44388/api/account/login';
   registrationUrl = 'https://localhost:44388/api/account/register';
+  logoutUrl = 'https://localhost:44388/api/account/logout';
+  hasLoggedIn: Subject<boolean> = new Subject<boolean>();
 
   constructor(private http: HttpClient, private jwtService: JwtHelperService) { }
 
@@ -22,11 +24,22 @@ export class AccountServiceService {
     return this.http.post<AppUser>(this.registrationUrl, model);
   }
 
-  isLoggedIn(): boolean{
-    const user = localStorage.getItem('user');
-    if(!user) return false;
+  logout(){
+    return this.http.post(this.logoutUrl, {});
+  }
 
-    const userApp:AppUser = JSON.parse('user');
-    return !this.jwtService.isTokenExpired(userApp.token);
+  isLoggedIn(): boolean{
+    const token = this.getToken();
+    if(token)
+      return !this.jwtService.isTokenExpired(token);
+    return false;
+  }
+
+  getToken(): string {
+    const user = localStorage.getItem('user');
+    if(!user) return null;
+
+    const userApp:AppUser = JSON.parse(user);
+    return userApp.token;
   }
 }

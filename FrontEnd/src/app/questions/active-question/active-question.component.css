@@ -1,0 +1,16 @@
+.questDetails {
+  font-size: 200%;
+  vertical-align: center;
+}
+
+.answerDetail {
+  font-size: 125%;
+}
+
+.increaseText{
+  font-size: 150%;
+}
+
+.answerDetail>label {
+  display: inline;
+}
